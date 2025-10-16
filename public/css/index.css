@@ -1,0 +1,64 @@
+
+
+.header {
+ /* background-color: rgb(43, 226, 217); */
+ background-image: url('/img/logo_3.jpg');
+ /* padding: 20px; */
+}
+
+ .footer {
+    background-color: rgb(62, 111, 215);
+    color: rgb(255, 0, 238);
+    padding: 20px;
+    }
+
+.wrapper {
+    display: flex;
+    /* justify-content: space-between; */
+    /* background-color: blueviolet; */
+    /* color: rgb(255, 0, 51); */
+}
+
+.main-menu {
+    display: flex;
+    padding: 4px;
+    flex-direction: column;
+     /* background-color: rgb(72, 196, 241);  */
+     /* width: 21%; */
+}
+
+.content {
+     /* background-color: rgb(62, 215, 85); */
+     width: 98%;
+}
+
+.menu-item {
+    margin: 3px;
+}
+
+
+.user-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    /* background-color: rgb(255, 0, 153); */
+}
+
+.admin-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    border: solid 1px;
+    border-radius: 10px;
+    /* background-color: blue; */
+}
+
+
+.logo {
+    height: 120px;
+}
+
+
+
+
+

@@ -1,0 +1,30 @@
+.event-card {
+    display: flex;
+    /* background-color: blueviolet; */
+    /* color: blue; */
+}
+
+.event-content {
+    /* padding-left: 20px; */
+   
+}
+
+.contact-block {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+      
+}
+
+.contact-content {
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    color: rgb(10, 6, 56);
+    background-color: rgb(0, 89, 255, 0.5); /* синий цвет */
+}
+
+.contact-image {
+width: 80%;
+}
+

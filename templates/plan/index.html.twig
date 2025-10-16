@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello PlanController!{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+   <table class="table table-success table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Дата</th>
+      <th scope="col">Время</th>
+      <th scope="col">Площадка</th>
+      <th scope="col">Мероприятие</th>
+      <th scope="col">Ответственные</th>
+    </tr>
+  </thead>
+  <tbody>
+   {% for activity in activities %}
+    <tr>
+      <th scope="row">{{ activity.id }}</th>
+      <td>{{ activity.date ? activity.date|date('Y-m-d') : '' }}</td>
+      <td>{{ activity.time ? activity.time|date('H:i:s') : '' }}</td>
+      <td>{{ activity.place }}</td>
+      <td>{{ activity.title }}</td>
+      <td>{{ activity.organizator }}</td>
+    </tr>
+    {% endfor %} 
+  </tbody>
+</table>
+</div>
+{% endblock %}
