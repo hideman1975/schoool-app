@@ -16,7 +16,7 @@ class Event
     #[ORM\Column(length: 255)]
     private ?string $title = null;
 
-    #[ORM\Column(length: 255)]
+    #[ORM\Column(length: 5000)]
     private ?string $content = null;
 
     #[ORM\Column(length: 255)]
